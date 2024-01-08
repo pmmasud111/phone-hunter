@@ -11,7 +11,7 @@ const displayData = (phones, dataLimite) => {
   const cardContainer = document.getElementById("card-main");
   cardContainer.innerHTML = "";
 
-  //   Show all elements
+  //*   Show all elements*//
   const showBtn = document.getElementById("show-btn");
   if (dataLimite && phones.length > 10) {
     phones = phones.slice(0, 10);
